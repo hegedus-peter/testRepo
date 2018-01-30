@@ -17,4 +17,9 @@ public class MainTest {
         assertEquals(0.5,Main.divide(1, 2),0);
     }
     
+    @Test (expected = ArithmeticException.class)
+    public void testDivideBad() {
+        Main.divide(2,0);
+    }
+    
 }
