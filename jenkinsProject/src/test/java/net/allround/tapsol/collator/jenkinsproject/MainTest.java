@@ -32,6 +32,11 @@ public class MainTest {
         assertEquals(0.5,Main.divide(999.23,23),0);
     }
     
+    @Test
+    public void testDivideGood_5() {
+        assertEquals(0.5,Main.divide(992349.233,23),0);
+    }
+    
     @Test (expected = ArithmeticException.class)
     public void testDivideBad() {
         Main.divide(2,0);
