@@ -3,7 +3,6 @@ package net.allround.tapsol.collator.jenkinsproject;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import net.allround.tapsol.collator.jenkinsproject.Main;
 
 /**
  *
