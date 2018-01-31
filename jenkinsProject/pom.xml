@@ -5,9 +5,9 @@
     <artifactId>jenkinsProject</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <build>
+<!--    <build>
     <defaultGoal>install</defaultGoal>
-</build>
+</build>-->
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
