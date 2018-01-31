@@ -11,6 +11,7 @@ import static org.junit.Assert.*;
 public class MainTest {
     
 //comment
+    //new comment
     @Test
     public void testDivideGood() {
         assertEquals(0.5,Main.divide(1, 2),0);
