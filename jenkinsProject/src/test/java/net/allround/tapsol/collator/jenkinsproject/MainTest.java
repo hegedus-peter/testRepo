@@ -27,4 +27,9 @@ public class MainTest {
         Main.divide(2,0);
     }
     
+    @Test
+    public void testAddGood(){
+        assertEquals(2,Main.add(1, 1),0);
+    }
+    
 }
